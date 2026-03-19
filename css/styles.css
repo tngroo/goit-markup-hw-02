@@ -15,7 +15,6 @@ ul {
     list-style: none;
 }
 
-.header-nav {}
 
 .header-logo {
     font-family: Raleway, sans-serif;
@@ -28,7 +27,7 @@ ul {
 
 }
 
-.header-nav:hover, .header-nav:focus {
+.header-nav{
     color: #404BBF;
 }
 
@@ -36,16 +35,17 @@ ul {
     color: #4D5AE5;
 }
 
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}   
 
-.nav-list {
+.nav-link {
     font-weight: 500;
-        line-height: 1.5;
         color: #2E2F42;
 }
 
-.nav-link {}
-
-.contact-list {
+.contact-item {
     font-style: normal;
         line-height: 1.5;
         color: #2E2F42;
@@ -65,20 +65,24 @@ ul {
         line-height: 1.07;
         text-align: center;
         color: #FFFFFF;
+        letter-spacing: 0.02em;
 }
 
 .button-order-service {
     font-family: Roboto, sans-serif;
     background: #4D5AE5;
-    font-weight: medium;
+    font-weight: 500;
     letter-spacing: 0.04em;
+    font-weight: 500;
+        color: #FFFFFF;
+        сursor: pointer;
 }
 
-.section-title-features {}
+.button-order-service:hover,
+.button-order-service:focus {
+    background: #404BBF;
+}   
 
-.features-list {}
-
-.features-list-item {}
 
 .features-title {
     font-weight: 500;
@@ -105,11 +109,10 @@ ul {
 
 .team-list {}
 
-.team-list-item {}
-
-.team-img {
-background: #FFFFFF;
+.team-list-item {
+    background: #FFFFFF;
 }
+
 
 .team-title {
     font-weight: 500;
@@ -132,11 +135,6 @@ background: #FFFFFF;
         color: #2E2F42;
 }
 
-.portfolio-list {}
-
-.portfolio-item {}
-
-.portfolio-img {}
 
 .portfolio-title {
     font-weight: 500;
@@ -158,7 +156,7 @@ background: #FFFFFF;
     font-family: Raleway, sans-serif;   
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.7;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F4F4FD;
